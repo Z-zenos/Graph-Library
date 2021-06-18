@@ -4,7 +4,6 @@
 ## Usage
 ```C
 #include "graph.h"
-#include "graph.c"
 ```
 
 ---

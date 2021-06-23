@@ -135,7 +135,7 @@ gcc -g -c your_name_file.c graph.c
 Second (Note: 3 files graph.o pqueue.o libfdr.a are required):
 
 ```C
-gcc -g -o your_name_file your_name_file.o graph.o pqueue.o libfdr.a
+gcc -g -o your_name_file your_name_file.o libgraph.a
 
 ```
 

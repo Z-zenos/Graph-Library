@@ -264,9 +264,9 @@ void buildGraph(Graph graph, int mode)	//1: color algo and 0: other algo
 		exit(EXIT_FAILURE);
 	}
 	if(graph->isDirected) 
-		fprintf(graph->gd, "digraph GraphViz\n{\n\trankdir = LR;\n");//\tnode [shape = circle, width = 0.4];\n\tnodesep = 1.5;\n");
+		fprintf(graph->gd, "digraph GraphViz\n{\n\tnode [shape = circle, width = 0.4];\n\tnodesep = 1.5;\n");
 	else 
-		fprintf(graph->gd, "graph GraphViz\n{\n\trankdir = LR;\n");//\tnode [shape = circle, width = 0.4];\n\tnodesep = 1.5;\n");
+		fprintf(graph->gd, "graph GraphViz\n{\n\tnode [shape = circle, width = 0.4];\n\tnodesep = 1.5;\n");
 	if(!mode)
 		for(int i = 0; i < graph->max; i++)
 			if(graph->exist[i])

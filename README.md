@@ -163,7 +163,7 @@ graph GraphViz
 
 and picture:
 
-<img src = "https://raw.githubusercontent.com/Z-techIT/Graph-Library/master/GraphViz000.png" width = "700" height = "500"/>
+<img src = "https://github.com/Z-techIT/Graph-Library/blob/master/GraphViz000.pdfg" width = "700" height = "500"/>
 
 ---
 
